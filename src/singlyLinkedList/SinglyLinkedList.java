@@ -32,6 +32,7 @@ public class SinglyLinkedList<E> {
         head = head.getNext();
         if (isEmpty())
             tail = head;
+        size--;
 
         return delete;
     }
